@@ -8,4 +8,12 @@ Este projeto trabalha usando docker
 4. Rodar migrations usando o comando : `yarn migration:run`
 5. Caso necessário é possível rodar a seed para popular o banco de dados: `yarn seed`
 
-# fastpro
+# Rota de login
+
+<h1>http://localhost:3333/auth/login</h1>
+
+<h3> Passar Login e senha </h3>
+
+<code> "email": "rodolfoluiz.fernandes@outlook.com
+"senha: "123456"
+</code>
