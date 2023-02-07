@@ -1,8 +1,11 @@
 # Awesome Project Build with TypeORM
 
-Steps to run this project:
+Este projeto trabalha usando docker
 
-1. Run `npm i` command
-2. Setup database settings inside `data-source.ts` file
-3. Run `npm start` command
+1. Clonar o projeto
+2. Rodar `docker-compose --build`
+3. Entrar no container da aplicação
+4. Rodar migrations usando o comando : `yarn migration:run`
+5. Caso necessário é possível rodar a seed para popular o banco de dados: `yarn seed`
+
 # fastpro
