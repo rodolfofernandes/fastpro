@@ -4,8 +4,8 @@ WORKDIR /usr/app
 
 COPY package*.json ./
 
-RUN yaern add
+RUN yarn
 
 COPY ./ ./
 
-CMD [ "YARN", "START" ]
+CMD [ "yarn", "START" ]
